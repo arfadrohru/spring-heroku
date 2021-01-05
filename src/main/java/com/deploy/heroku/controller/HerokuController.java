@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api")
 public class HerokuController {
 
-	@GetMapping("/User")
+	@GetMapping("/user")
 	public Map<String, Object> getUser(){
 		Map<String, Object> result = new HashMap<String, Object>();
 		result.put("user", "Heroku");
